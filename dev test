@@ -1,0 +1,5 @@
+const Block = require('./block');
+
+const block = new Block('test1' , "test2" , "test3" , "test4");
+console.log(block.toString());
+console.log(Block.genesis(),toString());
